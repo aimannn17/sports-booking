@@ -214,29 +214,3 @@ SYLLABUS COVERAGE (where to show each topic in the demo)
                       x-on:click, $wire, tabs, modals); Pest unit,
                       feature and Livewire tests, datasets, actingAs,
                       RefreshDatabase, data-test attributes
-
-
-GIT WORKFLOW
----------------------------------------------------------------------
-Commit history is assessed, so each member should commit their own
-work, for example:
-  git checkout -b feature/payments
-  git add .
-  git commit -m "feat(payments): record bank transfer payments"
-  git push -u origin feature/payments    (after adding the GitHub remote)
-Never commit vendor/, node_modules/ or .env (already in .gitignore).
-
-
-8. IMPLEMENTATION BRIEF - SCREENSHOTS TO TAKE
----------------------------------------------------------------------
-  1. Home and facility list (guest)
-  2. Facility page: slot grid, confirm-booking modal
-  3. Student hitting the 2-booking limit (error in the modal)
-  4. My bookings: tabs and the cancel modal
-  5. Booking details for an external user (unpaid, then paid)
-  6. Admin dashboard
-  7. Admin payments: record-payment modal with bank transfer selected
-  8. Receipt page
-  9. Admin time slots: generate modal, a blocked slot
- 10. Admin facilities, opening hours, facility types, users
- 11. php artisan test output (all passing)
