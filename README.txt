@@ -1,5 +1,5 @@
 CAMPUS SPORTS FACILITY BOOKING SYSTEM
-SPG 0553 Advance Web Programming - Mini Project
+SPG 0553 Advance Web Programming (LARAVEL) - Mini Project
 =====================================================================
 
 Students and the public book sports courts online. Students book for
